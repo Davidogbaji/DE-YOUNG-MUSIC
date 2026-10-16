@@ -12,9 +12,9 @@ export const initialSettings = {
   storeName: 'De Young Musical and City Spot',
   tagline: 'Your #1 Hub for Quality Musical Instruments, Sound Equipment & Professional Studio Setup',
   whatsappNumber: '2348100090843', // 08100090843 with intl prefix
-  phoneNumber: '+234 810 009 0843',
-  email: 'info@deyoungmusical.com',
-  address: 'Shop 14/15, City Spot Plaza, Lagos, Nigeria',
+  phoneNumber: '08100090843',
+  email: 'ogidithomasiji43@gmail.com',
+  address: 'Shop 1001 Area 1 shopping complex garki Abuja',
   currency: '₦',
   announcementText: '🔥 Nationwide Delivery Available! Call or WhatsApp us directly for custom studio packages and church sound setup.',
   bannerTitle: 'Unleash Your Sound With Authentic Musical Gear',

@@ -13,9 +13,9 @@ export default function Footer() {
   }, []);
 
   const whatsappNum = settings?.whatsappNumber || '2348100090843';
-  const phone = settings?.phoneNumber || '+234 810 009 0843';
-  const email = settings?.email || 'info@deyoungmusical.com';
-  const address = settings?.address || 'Shop 14/15, City Spot Plaza, Lagos, Nigeria';
+  const phone = settings?.phoneNumber || '08100090843';
+  const email = settings?.email || 'ogidithomasiji43@gmail.com';
+  const address = settings?.address || 'Shop 1001 Area 1 shopping complex garki Abuja';
 
   return (
     <footer className="bg-slate-950 text-slate-400 border-t border-slate-800/80 pt-16 pb-12 mt-auto">

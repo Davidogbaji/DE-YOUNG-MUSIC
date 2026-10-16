@@ -11,7 +11,7 @@ export const config = {
   port: process.env.PORT || 5000,
   jwtSecret: process.env.JWT_SECRET || 'deyoung-music-super-secret-key-2026-secure',
   nodeEnv: process.env.NODE_ENV || 'development',
-  adminEmail: process.env.ADMIN_EMAIL || 'admin@deyoungmusical.com',
+  adminEmail: process.env.ADMIN_EMAIL || 'ogidithomasiji43@gmail.com',
   adminPassword: process.env.ADMIN_PASSWORD || 'Admin@12345',
   corsOrigin: process.env.CORS_ORIGIN || '*',
   uploadsDir: path.join(__dirname, '../../uploads'),

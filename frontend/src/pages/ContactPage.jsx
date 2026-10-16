@@ -13,9 +13,9 @@ export default function ContactPage() {
   }, []);
 
   const whatsappNum = settings?.whatsappNumber || '2348100090843';
-  const displayPhone = settings?.phoneNumber || '+234 810 009 0843';
-  const email = settings?.email || 'info@deyoungmusical.com';
-  const address = settings?.address || 'Shop 14/15, City Spot Plaza, Lagos, Nigeria';
+  const displayPhone = settings?.phoneNumber || '08100090843';
+  const email = settings?.email || 'ogidithomasiji43@gmail.com';
+  const address = settings?.address || 'Shop 1001 Area 1 shopping complex garki Abuja';
 
   const handleSubmit = (e) => {
     e.preventDefault();

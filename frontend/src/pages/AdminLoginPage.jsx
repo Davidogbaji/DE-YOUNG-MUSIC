@@ -28,7 +28,7 @@ export default function AdminLoginPage() {
   };
 
   const handleFillDemo = () => {
-    setEmail('admin@deyoungmusical.com');
+    setEmail('ogidithomasiji43@gmail.com');
     setPassword('Admin@12345');
     setError(null);
   };
@@ -62,7 +62,7 @@ export default function AdminLoginPage() {
               <input
                 type="email"
                 required
-                placeholder="admin@deyoungmusical.com"
+                placeholder="ogidithomasiji43@gmail.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full bg-slate-900 border border-slate-700 text-slate-100 text-xs sm:text-sm rounded-xl pl-10 pr-4 py-3 focus:outline-none focus:border-amber-400"
@@ -106,7 +106,7 @@ export default function AdminLoginPage() {
         <div className="pt-4 border-t border-slate-700/60 text-center space-y-2">
           <p className="text-[11px] text-slate-400">Default Admin Credentials:</p>
           <div className="p-3 bg-slate-900 rounded-xl text-left text-[11px] font-mono text-slate-300 space-y-1">
-            <p>Email: <span className="text-amber-400">admin@deyoungmusical.com</span></p>
+            <p>Email: <span className="text-amber-400">ogidithomasiji43@gmail.com</span></p>
             <p>Password: <span className="text-amber-400">Admin@12345</span></p>
           </div>
           <button

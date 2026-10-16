@@ -44,7 +44,7 @@ npm run dev:frontend
 ## 🔑 Default Admin Login
 
 - **URL:** `/admin/login`
-- **Email:** `admin@deyoungmusical.com`
+- **Email:** `ogidithomasiji43@gmail.com`
 - **Password:** `Admin@12345`
 
 *Password can be changed anytime in the **Admin Dashboard > Store Settings** tab.*

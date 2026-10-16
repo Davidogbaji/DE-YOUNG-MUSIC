@@ -85,7 +85,7 @@ export default function CheckoutPage() {
           name: formData.name.trim(),
           phone: formData.phone.trim(),
           email: formData.email.trim(),
-          address: formData.deliveryType === 'PICKUP' ? 'Store Pickup: Shop 14/15 City Spot Plaza Lagos' : formData.address.trim(),
+          address: formData.deliveryType === 'PICKUP' ? 'Store Pickup: Shop 1001 Area 1 shopping complex garki Abuja' : formData.address.trim(),
           city: formData.city.trim() || 'Lagos',
           state: formData.state,
           notes: formData.notes.trim()
@@ -171,7 +171,7 @@ export default function CheckoutPage() {
               >
                 <Building2 className="w-4 h-4 text-amber-400 mb-1" />
                 <p className="font-extrabold">Store Pickup</p>
-                <p className="text-[11px] font-normal text-slate-400">Pick up at City Spot Plaza, Lagos</p>
+                <p className="text-[11px] font-normal text-slate-400">Pick up at Shop 1001 Area 1 shopping complex garki Abuja</p>
               </button>
             </div>
           </div>

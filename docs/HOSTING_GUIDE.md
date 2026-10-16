@@ -18,7 +18,7 @@ This guide explains how to host your website and backend online for **100% free*
 ## Default Admin Credentials
 
 - **Admin Login URL:** `/admin/login` (e.g. `https://your-app.onrender.com/admin/login` or `http://localhost:5000/admin/login`)
-- **Email:** `admin@deyoungmusical.com`
+- **Email:** `ogidithomasiji43@gmail.com`
 - **Password:** `Admin@12345`
 
 *(You can change this password anytime inside **Admin Dashboard > Settings > Change Password**)*
@@ -65,7 +65,7 @@ This method deploys both the frontend and backend together on a single Render Fr
 4. In **Environment Variables**, add:
    - `NODE_ENV`: `production`
    - `JWT_SECRET`: `your-own-random-secure-string-here`
-   - `ADMIN_EMAIL`: `admin@deyoungmusical.com`
+   - `ADMIN_EMAIL`: `ogidithomasiji43@gmail.com`
    - `ADMIN_PASSWORD`: `Admin@12345`
 
 5. Click **Deploy Web Service**.
@@ -74,7 +74,7 @@ Render will install dependencies, build the React frontend, and start the server
 
 Open that URL in your browser:
 - Storefront will load immediately with all musical instruments!
-- Click **Admin Login**, sign in with `admin@deyoungmusical.com` / `Admin@12345`, and start uploading your products!
+- Click **Admin Login**, sign in with `ogidithomasiji43@gmail.com` / `Admin@12345`, and start uploading your products!
 
 ---
 
