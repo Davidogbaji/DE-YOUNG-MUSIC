@@ -1,0 +1,295 @@
+export const initialCategories = [
+  { id: 'cat-keyboards', name: 'Keyboards & Pianos', slug: 'keyboards-pianos', icon: 'Piano' },
+  { id: 'cat-guitars', name: 'Guitars & Bass', slug: 'guitars-bass', icon: 'Guitar' },
+  { id: 'cat-drums', name: 'Drums & Percussion', slug: 'drums-percussion', icon: 'Drum' },
+  { id: 'cat-studio', name: 'Studio & Recording', slug: 'studio-recording', icon: 'Mic2' },
+  { id: 'cat-live-sound', name: 'Live Sound & PA', slug: 'live-sound-pa', icon: 'Speaker' },
+  { id: 'cat-dj', name: 'DJ Equipment', slug: 'dj-equipment', icon: 'Disc' },
+  { id: 'cat-accessories', name: 'Accessories & Cables', slug: 'accessories-cables', icon: 'Headphones' }
+];
+
+export const initialSettings = {
+  storeName: 'De Young Musical and City Spot',
+  tagline: 'Your #1 Hub for Quality Musical Instruments, Sound Equipment & Professional Studio Setup',
+  whatsappNumber: '2348100090843', // 08100090843 with intl prefix
+  phoneNumber: '+234 810 009 0843',
+  email: 'info@deyoungmusical.com',
+  address: 'Shop 14/15, City Spot Plaza, Lagos, Nigeria',
+  currency: '₦',
+  announcementText: '🔥 Nationwide Delivery Available! Call or WhatsApp us directly for custom studio packages and church sound setup.',
+  bannerTitle: 'Unleash Your Sound With Authentic Musical Gear',
+  bannerSubtitle: 'From professional church setups to private studios, we supply premium instruments with manufacturer warranty and delivery across Nigeria.',
+  bankDetails: {
+    bankName: 'First Bank of Nigeria',
+    accountName: 'De Young Musical Spot',
+    accountNumber: '3124567890'
+  }
+};
+
+export const initialProducts = [
+  {
+    id: 'prod-1',
+    name: 'Yamaha PSR-SX900 Arranger Workstation',
+    slug: 'yamaha-psr-sx900-arranger-workstation',
+    category: 'Keyboards & Pianos',
+    categoryId: 'cat-keyboards',
+    brand: 'Yamaha',
+    price: 1850000,
+    comparePrice: 2000000,
+    stock: 4,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1520523839898-50712825e317?auto=format&fit=crop&w=800&q=80',
+    description: 'The Yamaha PSR-SX900 is packed with a comprehensive suite of incredible voices and accompaniment styles, expansive connectivity, and a color touchscreen interface perfect for church worship, studio recording, and live stage performance.',
+    specs: {
+      'Keys': '61 Organ Organ (FSB), Initial Touch',
+      'Polyphony': '128 Max',
+      'Voices': '1337 Voices + 56 Drum/SFX Kits',
+      'Touchscreen': '7-inch Color TFT Wide VGA LCD',
+      'Audio Expansion': '1 GB built-in memory'
+    },
+    createdAt: '2026-01-10T10:00:00.000Z'
+  },
+  {
+    id: 'prod-2',
+    name: 'Roland XPS-30 Expandable Synthesizer',
+    slug: 'roland-xps-30-expandable-synthesizer',
+    category: 'Keyboards & Pianos',
+    categoryId: 'cat-keyboards',
+    brand: 'Roland',
+    price: 980000,
+    comparePrice: 1100000,
+    stock: 6,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80',
+    description: 'The Roland XPS-30 builds on the legendary XPS-10, adding tons of modern upgrades like sample import via USB, intuitive sound modify sliders, eight phrase pads, and dedicated mic input with vocal effects.',
+    specs: {
+      'Keys': '61 keys with velocity',
+      'Preset Memory': 'Patches: Over 1400, Drum kits: Over 35',
+      'Sample Import': 'WAV format (44.1 kHz, 16 bits)',
+      'Weight': '5.3 kg (ultra portable)'
+    },
+    createdAt: '2026-01-12T10:00:00.000Z'
+  },
+  {
+    id: 'prod-3',
+    name: 'Fender Player Stratocaster Electric Guitar',
+    slug: 'fender-player-stratocaster-electric-guitar',
+    category: 'Guitars & Bass',
+    categoryId: 'cat-guitars',
+    brand: 'Fender',
+    price: 750000,
+    comparePrice: 820000,
+    stock: 5,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1550291652-6ea9114a47b1?auto=format&fit=crop&w=800&q=80',
+    description: 'The inspiring sound of a Stratocaster is one of the foundations of Fender. Featuring classic bell-like high end, punchy mids and robust low end, combined with crystal-clear articulation, the Player Stratocaster is packed with authentic Fender feel.',
+    specs: {
+      'Body': 'Alder with gloss finish',
+      'Pickups': 'Three Player Series Alnico 5 Strat Single-Coils',
+      'Neck': 'Modern C-shaped maple neck profile',
+      'Frets': '22 Medium Jumbo'
+    },
+    createdAt: '2026-01-15T10:00:00.000Z'
+  },
+  {
+    id: 'prod-4',
+    name: 'Ibanez GSR200 Soundgear 4-String Bass Guitar',
+    slug: 'ibanez-gsr200-soundgear-4-string-bass-guitar',
+    category: 'Guitars & Bass',
+    categoryId: 'cat-guitars',
+    brand: 'Ibanez',
+    price: 320000,
+    comparePrice: 360000,
+    stock: 8,
+    featured: false,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=800&q=80',
+    description: 'The Ibanez GSR200 offers the famous Soundgear sleekness, comfort, tone, and playability at an entry-level price point. Features Phat II active bass boost for thunderous bottom end.',
+    specs: {
+      'Body': 'Poplar body',
+      'Neck': 'GSR4 Maple neck',
+      'Fretboard': 'Jatoba with white dot inlay',
+      'Electronics': 'Phat II EQ Active Bass Boost'
+    },
+    createdAt: '2026-01-18T10:00:00.000Z'
+  },
+  {
+    id: 'prod-5',
+    name: 'Pearl Export EXX 5-Piece Complete Drum Kit',
+    slug: 'pearl-export-exx-5-piece-complete-drum-kit',
+    category: 'Drums & Percussion',
+    categoryId: 'cat-drums',
+    brand: 'Pearl',
+    price: 1250000,
+    comparePrice: 1400000,
+    stock: 3,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&w=800&q=80',
+    description: 'The legends return. Pearl Export Series provides the sonic standard for worship centres, touring artists, and recording facilities with Reference-inspired shell composition and sturdy 830 hardware.',
+    specs: {
+      'Shells': '6-ply 7.5mm Poplar/Asian Mahogany',
+      'Configuration': '22" Bass, 10" & 12" Toms, 16" Floor Tom, 14" Snare',
+      'Hardware': '830 Series Boom, Straight & Hi-Hat Stands',
+      'Pedal': 'Demonator P-930 Single Bass Pedal'
+    },
+    createdAt: '2026-01-20T10:00:00.000Z'
+  },
+  {
+    id: 'prod-6',
+    name: 'Roland TD-17KVX V-Drums Electronic Drum Kit',
+    slug: 'roland-td-17kvx-v-drums-electronic-drum-kit',
+    category: 'Drums & Percussion',
+    categoryId: 'cat-drums',
+    brand: 'Roland',
+    price: 1950000,
+    comparePrice: 2150000,
+    stock: 2,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1543443374-b6fe10a6ab7b?auto=format&fit=crop&w=800&q=80',
+    description: 'When you are serious about drumming, you need a kit to match your ambition. The TD-17 series lets your technique shine through, backed by training tools to push you further.',
+    specs: {
+      'Snare': 'PDX-12 12-inch double-mesh head',
+      'Hi-Hat': 'VH-10 V-Hi-Hat on acoustic stand',
+      'Bluetooth': 'Audio streaming for play-along tracks',
+      'Presets': '50 premium drum kits'
+    },
+    createdAt: '2026-01-22T10:00:00.000Z'
+  },
+  {
+    id: 'prod-7',
+    name: 'Focusrite Scarlett 2i2 (4th Gen) Audio Interface',
+    slug: 'focusrite-scarlett-2i2-4th-gen-audio-interface',
+    category: 'Studio & Recording',
+    categoryId: 'cat-studio',
+    brand: 'Focusrite',
+    price: 2450000 ? 245000 : 245000,
+    comparePrice: 275000,
+    stock: 12,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=800&q=80',
+    description: 'The 4th Generation Scarlett 2i2 gives songwriters huge reasons to upgrade, with updated ultra-low-noise mic preamps, 120dB dynamic range converters, Auto Gain, Clip Safe, and redesigned Air mode.',
+    specs: {
+      'Preamps': '2 studio-grade Scarlett mic pres',
+      'Dynamic Range': '120dB studio quality converter',
+      'Connectivity': 'USB Type-C Bus Powered',
+      'Included Software': 'Ableton Live Lite, Pro Tools Artist 3-month trial'
+    },
+    createdAt: '2026-01-25T10:00:00.000Z'
+  },
+  {
+    id: 'prod-8',
+    name: 'Yamaha HS8 Powered Studio Monitor (Pair)',
+    slug: 'yamaha-hs8-powered-studio-monitor-pair',
+    category: 'Studio & Recording',
+    categoryId: 'cat-studio',
+    brand: 'Yamaha',
+    price: 780000,
+    comparePrice: 850000,
+    stock: 5,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80',
+    description: 'Nearfield reference monitors built on the philosophy of sonic purity. The white cone HS series delivers true, accurate sound reproduction without hype or coloring.',
+    specs: {
+      'Woofer': '8-inch cone woofer',
+      'Tweeter': '1-inch dome tweeter',
+      'Output': '120W bi-amp amplification (75W LF + 45W HF)',
+      'Frequency Response': '38Hz - 30kHz'
+    },
+    createdAt: '2026-01-28T10:00:00.000Z'
+  },
+  {
+    id: 'prod-9',
+    name: 'Shure BLX288/PG58 Dual Wireless Vocal System',
+    slug: 'shure-blx288-pg58-dual-wireless-vocal-system',
+    category: 'Live Sound & PA',
+    categoryId: 'cat-live-sound',
+    brand: 'Shure',
+    price: 520000,
+    comparePrice: 580000,
+    stock: 7,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1520523839898-50712825e317?auto=format&fit=crop&w=800&q=80',
+    description: 'The gold standard for church worship, conferences, and live performance. Includes BLX88 dual-channel receiver and two BLX2 handheld transmitters with PG58 microphone capsules.',
+    specs: {
+      'Transmitters': '2 x BLX2/PG58 Handhelds',
+      'Range': 'Up to 300 ft (100 m) line of sight',
+      'Battery Life': 'Up to 14 hours on 2 AA batteries',
+      'Frequency Selection': 'QuickScan one-touch frequency selection'
+    },
+    createdAt: '2026-02-01T10:00:00.000Z'
+  },
+  {
+    id: 'prod-10',
+    name: 'Yamaha DBR15 1000W 15-inch Powered Speaker',
+    slug: 'yamaha-dbr15-1000w-15-inch-powered-speaker',
+    category: 'Live Sound & PA',
+    categoryId: 'cat-live-sound',
+    brand: 'Yamaha',
+    price: 680000,
+    comparePrice: 740000,
+    stock: 4,
+    featured: false,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80',
+    description: 'The DBR15 achieves best-in-class SPL of up to 132dB and delivers the lowest frequency in its lineup. Great for front-of-house sound for live performance, DJs, or church auditoriums.',
+    specs: {
+      'Power': '1000W Class-D amplification',
+      'Max SPL': '132dB SPL',
+      'Inputs': '2-channel onboard mixer (XLR & 1/4" combo)',
+      'DSP': 'D-CONTOUR multi-band dynamic processing'
+    },
+    createdAt: '2026-02-03T10:00:00.000Z'
+  },
+  {
+    id: 'prod-11',
+    name: 'Pioneer DDJ-FLX4 2-Channel DJ Controller',
+    slug: 'pioneer-ddj-flx4-2-channel-dj-controller',
+    category: 'DJ Equipment',
+    categoryId: 'cat-dj',
+    brand: 'Pioneer DJ',
+    price: 430000,
+    comparePrice: 470000,
+    stock: 6,
+    featured: true,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80',
+    description: 'The Pioneer DJ DDJ-FLX4 is a versatile 2-channel controller with a club-standard layout, compatible with both rekordbox and Serato DJ Lite. Features Smart Fader and Smart CFX.',
+    specs: {
+      'Channels': '2-channel controller',
+      'Compatibility': 'rekordbox, Serato DJ, djay for iOS/Android',
+      'Audio Output': 'RCA Master output, 3.5mm Headphone jack',
+      'Connectivity': 'USB-C bus powered'
+    },
+    createdAt: '2026-02-05T10:00:00.000Z'
+  },
+  {
+    id: 'prod-12',
+    name: 'Shure SM58-LC Cardioid Dynamic Vocal Mic',
+    slug: 'shure-sm58-lc-cardioid-dynamic-vocal-mic',
+    category: 'Accessories & Cables',
+    categoryId: 'cat-accessories',
+    brand: 'Shure',
+    price: 125000,
+    comparePrice: 140000,
+    stock: 20,
+    featured: false,
+    status: 'active',
+    image: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=80',
+    description: 'The legendary vocal microphone designed for professional vocal use in live performance, sound reinforcement, and studio recording. Highly effective spherical filter minimizes wind and breath pop noise.',
+    specs: {
+      'Type': 'Dynamic',
+      'Pattern': 'Cardioid',
+      'Frequency': '50 to 15,000 Hz',
+      'Connector': 'Three-pin professional audio (XLR)'
+    },
+    createdAt: '2026-02-08T10:00:00.000Z'
+  }
+];

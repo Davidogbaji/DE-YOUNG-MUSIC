@@ -1,0 +1,14 @@
+{
+  "name": "de-young-musical-city-spot",
+  "version": "1.0.0",
+  "description": "De Young Musical and City Spot - Reliable E-Commerce Storefront & Admin Portal",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "npm --prefix backend install && node backend/src/server.js",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": ["music", "ecommerce", "instruments", "deyoung", "nigeria"],
+  "author": "De Young Musical and City Spot"
+}
