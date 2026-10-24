@@ -145,8 +145,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/admin/login" className="hover:text-amber-400 text-amber-500/80 font-medium transition-colors">
-                  Store Admin Portal
+                <Link to="/shop" className="hover:text-amber-400 transition-colors">
+                  Order Tracking & Delivery Info
                 </Link>
               </li>
             </ul>
@@ -185,7 +185,7 @@ export default function Footer() {
             <span>•</span>
             <span>WhatsApp Ordering</span>
             <span>•</span>
-            <Link to="/admin/login" className="hover:underline text-slate-400">Admin Area</Link>
+            <span>Garki, Abuja</span>
           </div>
         </div>
 

@@ -96,8 +96,8 @@ export default function Navbar() {
           {/* Right Action Icons */}
           <div className="flex items-center space-x-3 sm:space-x-4">
             
-            {/* Admin link / button */}
-            {isAuthenticated ? (
+            {/* Only show Admin controls when already authenticated - completely hidden from public visitors */}
+            {isAuthenticated && (
               <div className="flex items-center space-x-2">
                 <Link
                   to="/admin"
@@ -113,14 +113,6 @@ export default function Navbar() {
                   Logout
                 </button>
               </div>
-            ) : (
-              <Link
-                to="/admin/login"
-                className="hidden sm:inline-flex items-center space-x-1 px-3 py-1.5 rounded-lg text-slate-400 hover:text-white text-xs font-medium hover:bg-slate-800 transition-colors"
-              >
-                <Shield className="w-3.5 h-3.5" />
-                <span>Admin Login</span>
-              </Link>
             )}
 
             {/* Cart Button */}
@@ -196,16 +188,18 @@ export default function Navbar() {
               </Link>
             ))}
             
-            <div className="border-t border-slate-800 pt-2 mt-2">
-              <Link
-                to="/admin"
-                onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center space-x-2 px-3 py-2 rounded-lg text-amber-400 font-semibold bg-amber-500/10"
-              >
-                <Shield className="w-4 h-4" />
-                <span>Admin Dashboard</span>
-              </Link>
-            </div>
+            {isAuthenticated && (
+              <div className="border-t border-slate-800 pt-2 mt-2">
+                <Link
+                  to="/admin"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center space-x-2 px-3 py-2 rounded-lg text-amber-400 font-semibold bg-amber-500/10"
+                >
+                  <Shield className="w-4 h-4" />
+                  <span>Admin Dashboard</span>
+                </Link>
+              </div>
+            )}
           </div>
         </div>
       )}
