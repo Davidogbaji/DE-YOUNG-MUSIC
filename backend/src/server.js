@@ -76,7 +76,7 @@ app.use((err, req, res, next) => {
 async function startServer() {
   await store.init();
 
-  app.listen(config.port, () => {
+  app.listen(config.port, '0.0.0.0', () => {
     console.log(`=======================================================`);
     console.log(`🎵 De Young Musical API Server running!`);
     console.log(`📡 URL: http://localhost:${config.port}`);
